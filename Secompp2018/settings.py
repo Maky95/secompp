@@ -25,7 +25,7 @@ SECRET_KEY = 'v&!yl$qub%uhr9$pcq94l5k-91+&k+^)@e-hls7bxr9&js5$79'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []  #CONFIGURAR PARA DEPLOY
+ALLOWED_HOSTS = ['localhost','127.0.0.1','pythonanywhere.com']  #CONFIGURAR PARA DEPLOY // configurar servidor externo
 
 
 # Application definition
